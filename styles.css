@@ -1,0 +1,60 @@
+body {
+    background-color: #0B132B;
+}
+
+p, h1, h2, h4, li {
+    color: #f0ffff;
+}
+
+a {
+    color: #6FFFE9;
+}
+
+a:visited {
+    color: #5BC0BE;
+}
+
+tr td {
+    padding-bottom: 10px;
+}
+
+.main-table {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.inner-table {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-table td {
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.media-title {
+    text-align: center;
+}
+
+.jelly-vid {
+    display: block;          
+    margin-left: auto;      
+    margin-right: auto;
+    padding-bottom: 20px;
+    width: 875px;
+}
+
+.framed-img {
+    border: 2px solid #f0ffff;
+}
+
+.img-link {
+    transition: filter 0.3s ease;
+}
+
+.img-link:hover {
+    filter: brightness(50%);
+}
